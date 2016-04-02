@@ -2206,7 +2206,7 @@ p.entry-meta {
 	.site-inner,
 	.wrap,
 	.widget-above-content {
-		max-width: 960px;
+		max-width: 100%;
 	}
 
 	.content,
@@ -2276,7 +2276,7 @@ p.entry-meta {
 
 	.site-inner,
 	.wrap {
-		max-width: 800px;
+		max-width: 100%;
 	}
 	
 	.site-inner,
@@ -2579,7 +2579,8 @@ p.entry-meta {
 	
 	.header-image .site-header a {
 		background-size: 100% !important;
-		width: 100%;
+		width: 70%;
+		padding-bottom: 132px;
 	}
 	
 	.home-flexible  .eight-widgets .widget,
