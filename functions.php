@@ -16,8 +16,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 
 //* Setup Theme
 include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
-
-//* Add Color Selection to novelty Theme Customizer
+ //* Add Color Selection to novelty Theme Customizer
 require_once( get_stylesheet_directory() . '/lib/customize.php' );
 
 //* Loads Responsive Menu, Google Fonts, and Dashicons

@@ -487,7 +487,7 @@ th {
 .site-inner,
 .wrap {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 100%;
 }
 
 .site-inner {
@@ -1488,7 +1488,8 @@ img#wpstats {
 }
 
 .site-header .wrap {
-	padding: 15px 0;
+	padding: 25px 0;
+	background-color: black;
 }
 
 /* ## Title Area
@@ -1526,11 +1527,12 @@ img#wpstats {
 
 .header-image .site-title > a {
 	background-position: center center !important;
-    background-size: 450px 210px !important;
+    background-size: 350px 71px !important;
+    background-color: black;
     display: block;
-    height: 210px;
+    height: 71px;
     margin: 0 auto;
-    width: 450px;
+    width: 350px;
 }
 
 .site-description {
