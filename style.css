@@ -1546,6 +1546,7 @@ img#wpstats {
 .site-description,
 .site-title {
 	margin-bottom: 0;
+	margin-top: 15px;
 }
 
 .header-image .site-description,
