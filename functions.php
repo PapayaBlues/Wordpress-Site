@@ -101,6 +101,10 @@ function prefix_primary_nav_extras( $menu, $args ) {
 
 	return $menu;
 }
+add_filter( 'genesis_search_text', 'sp_search_text' );
+function sp_search_text( $text ) {
+	return esc_attr( 'Buscar' );
+}
 
 //* Add widget to primary navigation
 add_filter( 'genesis_nav_items', 'novelty_social_icons', 10, 2 );
