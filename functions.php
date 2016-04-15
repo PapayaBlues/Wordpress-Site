@@ -311,7 +311,7 @@ function novelty_footer_creds_text() {
     echo '<div class="creds"><p>';
     echo 'Copyright &copy; ';
     echo date('Y');
-    echo ' &middot; <a target="_blank" href="http://restored316designs.com/themes">Novelty theme</a> by <a target="_blank" href="http://www.restored316designs.com">Restored 316</a>';
+    echo ' &middot; <a target="_blank" href="#">Made</a> by <a target="_blank" #">Erika Leal</a>';
     echo '</p></div>';
 
 }
