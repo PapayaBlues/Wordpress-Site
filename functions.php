@@ -278,6 +278,10 @@ function novelty_home_slider() {
 	}
 }
 
+
+
+
+
 //* Add Featured Image below Primary Navigation on Single Pages & Posts
 add_action( 'genesis_after_header','novelty_relocate_entry_title_pages' );
 function novelty_relocate_entry_title_pages() {
@@ -322,6 +326,17 @@ function novelty_footer_creds_text() {
 
 //* Add Theme Support for WooCommerce
 add_theme_support( 'genesis-connect-woocommerce' );
+
+//* Cambia el texto del botón Añadir al carrito en WooCommerce en la categorías de productos: 2.1 o superior
+add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_button_text' );    // 2.1 +
+ 
+function woo_archive_custom_cart_button_text() {
+ 
+        return __( 'Mi Texto 2', 'woocommerce' );
+ 
+}
+
+
 
 //* Remove Related Products
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
