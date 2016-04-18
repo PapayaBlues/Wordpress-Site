@@ -31,6 +31,10 @@ function novelty_enqueue_scripts() {
 
 }
 
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link() {
+return '<a class="more-link" href="' . get_permalink() . '">Leer más</a>';
+}
 //* Enqueue scripts on static Pages that have Featured images.
 add_action( 'wp_enqueue_scripts', 'novelty_static_page_enqueue_scripts' );
 function novelty_static_page_enqueue_scripts() {
