@@ -57,7 +57,7 @@ function novelty_excerpt_length( $length ) {
 //* Modify the Excerpt read more link
 add_filter('excerpt_more', 'novelty_new_excerpt_more');
 function novelty_new_excerpt_more($more) {
-	return '... <a class="more-link" href="' . get_permalink() . '">Read More</a>';
+	return '... <a class="more-link" href="' . get_permalink() . '">Leer más</a>';
 }
 
 //* Make sure content limit (if set in Theme Settings) doesn't apply
