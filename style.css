@@ -2207,11 +2207,11 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 /* Desktops and laptops computers */
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width : 1524px) {
 .content,
 	.site-header .widget-area {
 
-		width: 1300px;
+		width: 1150px;
 	}
 }
 
