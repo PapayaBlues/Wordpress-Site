@@ -1,3 +1,8 @@
+
+
+
+
+
 /*
 	Theme Name: Novelty Theme
 	Theme URI: http://restored316designs.com/themes
@@ -2200,6 +2205,18 @@ p.entry-meta {
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
+
+/* Desktops and laptops computers */
+@media only screen and (min-width : 1824px) {
+.content,
+	.site-header .widget-area {
+
+		width: 1300px;
+	}
+}
+
+
+
 
 @media only screen and (max-width: 1200px) {
 
