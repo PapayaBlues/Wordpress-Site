@@ -92,9 +92,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 /* ## Box Sizing
 --------------------------------------------- */
 
-form {
-    padding-left: 90px;
-}
 
 *,
 input[type="search"] {
