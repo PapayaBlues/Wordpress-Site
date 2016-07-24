@@ -336,7 +336,7 @@ add_filter( 'woocommerce_product_add_to_cart_text', 'woo_archive_custom_cart_but
  
 function woo_archive_custom_cart_button_text() {
  
-        return __( 'Mi Texto 2', 'woocommerce' );
+        return __( 'Comprar', 'woocommerce' );
  
 }
 
